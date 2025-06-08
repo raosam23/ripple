@@ -1,7 +1,8 @@
+import SideLayout from "../components/SideLayout"
 
 const Bookmarks = () => {
   return (
-    <div>Bookmarks</div>
+    <SideLayout>Bookmarks</SideLayout>
   )
 }
 

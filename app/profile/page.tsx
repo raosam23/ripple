@@ -1,7 +1,8 @@
+import SideLayout from "../components/SideLayout"
 
 const Profile = () => {
   return (
-    <div>Profile</div>
+    <SideLayout>Profile</SideLayout>
   )
 }
 

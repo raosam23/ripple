@@ -1,6 +1,8 @@
+import SideLayout from "../components/SideLayout"
+
 const Settings = () => {
   return (
-    <div>Settings</div>
+    <SideLayout>Settings</SideLayout>
   )
 }
 

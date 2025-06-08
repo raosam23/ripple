@@ -1,6 +1,8 @@
+import SideLayout from "../components/SideLayout"
+
 const DirectMessage = () => {
   return (
-    <div>dms</div>
+    <SideLayout>dms</SideLayout>
   )
 }
 

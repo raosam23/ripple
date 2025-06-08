@@ -1,6 +1,8 @@
+import SideLayout from "../components/SideLayout"
+
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <SideLayout>Home</SideLayout>
   )
 }
 
