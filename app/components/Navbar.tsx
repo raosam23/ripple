@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Bookmark, LucideHome, MessageCircle, Plus, Settings2, UserRound } from 'lucide-react';
 const Navbar = () => {
   return (
-    <div className="lg:w-64 p-10 border-r border-gray-200 flex flex-col justify-between fixed h-screen">
+    <div className="w-2.5 lg:w-64 p-10 border-r border-gray-200 flex flex-col justify-between items-center fixed h-screen">
       <div>
         <div className="text-2xl font-bold">
           <Link href="/home" className="block w-fit mb-10 rounded-full hover:bg-gray-100 transition p-2">

@@ -1,8 +1,4 @@
-import Link from "next/link";
+import Hero from './components/Hero';
 export default function Home() {
-  return (
-  <h1>
-    <Link href='/home'><button>Get things started</button></Link>
-  </h1>
-  );
+  return <Hero />;
 }
