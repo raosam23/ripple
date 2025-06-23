@@ -44,8 +44,8 @@ const LearnMore = () => {
         />
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-8">
-        <Link href="/signup">
-          <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">Sign Up</button>
+        <Link href="/signin">
+          <button className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">Sign In</button>
         </Link>
         <Link href="/home">
           <button className="border border-black px-6 py-2 rounded-full hover:bg-gray-100 transition">
