@@ -6,5 +6,6 @@ export type UserCredentialsType = {
     location?: string,
     fullName?: string,
     dateOfBirth?: string,
+    bio?:string,
     //TODO: Add extra data if and when required
 }
