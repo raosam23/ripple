@@ -1,8 +1,11 @@
 import SideLayout from "../components/SideLayout"
+import HomeRipple from "../components/HomeRipple"
 
 const HomePage = () => {
   return (
-    <SideLayout>Home</SideLayout>
+    <SideLayout>
+      <HomeRipple />
+    </SideLayout>
   )
 }
 
