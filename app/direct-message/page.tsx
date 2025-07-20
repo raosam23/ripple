@@ -1,8 +1,9 @@
+import DirectMessagePage from "../components/DirectMessagePage"
 import SideLayout from "../components/SideLayout"
 
 const DirectMessage = () => {
   return (
-    <SideLayout>dms</SideLayout>
+    <SideLayout><DirectMessagePage /></SideLayout>
   )
 }
 
