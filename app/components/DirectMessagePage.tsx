@@ -47,7 +47,6 @@ const DirectMessagePage = () => {
 
   return (
     <div className="w-full max-w-5xl mx-auto flex flex-col sm:flex-row h-[90vh] border rounded-lg border-gray-400 overflow-hidden">
-      {/* Sidebar */}
       <div className="w-full sm:w-1/3 border-r border-gray-200 bg-white h-full flex flex-col">
         <h2 className="text-lg font-semibold px-4 py-3 border-b border-gray-200">Direct Message</h2>
         <ul className="overflow-y-auto flex-1">
@@ -63,8 +62,6 @@ const DirectMessagePage = () => {
           ))}
         </ul>
       </div>
-
-      {/* Chat Panel */}
       <div className="flex-1 bg-gray-50 flex flex-col justify-center items-center">
         {selectedMessageId === -1 ? (
           <p className="text-gray-400">Select a conversation to view a message...</p>

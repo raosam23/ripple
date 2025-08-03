@@ -23,7 +23,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({ chatData }) => {
               : 'bg-gray-300 text-gray-900 self-start rounded-bl-sm'
           }`}
         >
-          <p>{msg.message}</p>
+          <p className='whitespace-pre-line'>{msg.message}</p>
           <span className={`text-xs block mt-1 ${msg.from === 'me' ? 'text-gray-200' : 'text-gray-600'}`}>
             {msg.time}
           </span>

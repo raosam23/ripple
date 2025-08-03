@@ -1,9 +1,12 @@
-import SideLayout from "../components/SideLayout"
+import SideLayout from '../components/SideLayout';
+import SettingsPage from '../components/SettingsPage';
 
 const Settings = () => {
   return (
-    <SideLayout>Settings</SideLayout>
-  )
-}
+    <SideLayout>
+      <SettingsPage />
+    </SideLayout>
+  );
+};
 
-export default Settings
+export default Settings;
