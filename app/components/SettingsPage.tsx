@@ -30,13 +30,16 @@ const SettingsPage = () => {
         <div className="w-full max-w-2xl">
           <EditProfileSettingsPage />
         </div>
-        <div className="w-full max-w-2xl">
+        <hr className="my-3 border-t border-gray-200 w-full mx-auto" />
+        <div className="w-full max-w-2xl -mt-10">
           <PreferenceSettingsPage />
         </div>
-        <div className="w-full max-w-2xl">
+        <hr className="my-3 border-t border-gray-200 w-full mx-auto" />
+        <div className="w-full max-w-2xl -mt-10">
           <PrivacySettingsPage />
         </div>
-        <div className="w-full max-w-2xl">
+        <hr className="my-3 border-t border-gray-200 w-full mx-auto" />
+        <div className="w-full max-w-2xl -mt-10">
           <DataSettingsPage />
         </div>
       </div>

@@ -9,7 +9,7 @@ const SideLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       {!shouldHideNavbar && <Navbar />}
-      <main className={shouldHideNavbar ? 'p-6' : 'ml-36 lg:ml-64 p-6'}>{children}</main>
+      <main className={shouldHideNavbar ? 'p-6' : 'ml-20 lg:ml-64 p-6'}>{children}</main>
     </>
   );
 };
